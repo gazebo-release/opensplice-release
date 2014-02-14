@@ -9,7 +9,7 @@
 
 export DH_OPTIONS=-v --buildsystem=cmake
 %:
-	dh $@
+	dh $@ --max-parallel=1
 
 # No tests yet
 override_dh_auto_test:
