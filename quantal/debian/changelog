@@ -1,3 +1,9 @@
+opensplice (6.3.0-2~quantal) precise; urgency=high
+ 
+  * Release 6.3.0-2
+ 
+ -- Brian Gerkey <gerkey@osrfoundation.org>  Mon, 21 Apr 2014 11:48:00 -0700
+
 opensplice (6.3.0-1~quantal) precise; urgency=high
  
   * Release 6.3.0-1
