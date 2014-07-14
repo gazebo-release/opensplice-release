@@ -1,4 +1,4 @@
-Source: opensplice
+Source: libopensplice63
 Standards-Version: 3.9.4
 Maintainer: Brian Gerkey <gerkey@osrfoundation.org>
 Section: science
