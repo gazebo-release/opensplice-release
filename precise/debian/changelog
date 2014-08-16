@@ -1,3 +1,9 @@
+libopensplice64 (6.4.0-1~precise) precise; urgency=high
+ 
+  * Release 6.4.0-1
+ 
+ -- Brian Gerkey <gerkey@osrfoundation.org>  Fri, 15 Aug 2014 11:48:00 -0700
+
 libopensplice63 (6.3.0-3~precise) precise; urgency=high
  
   * Release 6.3.0-3
