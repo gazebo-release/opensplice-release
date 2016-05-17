@@ -7,7 +7,9 @@
 
 .PHONY: override_dh_auto_test
 
-DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+# Not using DEB_HOST_MULTIARCH since it generates i386 for arch instead
+# of i686 which is the path used by gcc
+DEB_TARGET_GNU_TYPE ?= $(shell dpkg-architecture -qDEB_TARGET_GNU_TYPE)
 
 export DH_OPTIONS=-v --buildsystem=cmake
 
@@ -16,7 +18,7 @@ override_dh_auto_configure:
 	# https://github.com/PrismTech/opensplice/issues/18
 	find /usr/lib -name liblto_plugin.so
 	mkdir -p /usr/lib/bfd-plugins
-	ln -s /usr/lib/gcc/$(DEB_HOST_MULTIARCH)/5/liblto_plugin.so /usr/lib/bfd-plugins/
+	ln -s /usr/lib/gcc/$(DEB_TARGET_GNU_TYPE)/5/liblto_plugin.so /usr/lib/bfd-plugins/
 	dh_auto_configure
 
 %:
