@@ -7,7 +7,17 @@
 
 .PHONY: override_dh_auto_test
 
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
 export DH_OPTIONS=-v --buildsystem=cmake
+
+override_dh_auto_configure:
+	# Workaround for bug: 
+	# https://github.com/PrismTech/opensplice/issues/18
+	find /usr/lib -name liblto_plugin.so
+	ln -s /usr/lib/gcc/$(DEB_HOST_MULTIARCH)/5.*/liblto_plugin.so /usr/lib/bfd-plugins/
+	dh_auto_configure
+
 %:
 	dh $@ --max-parallel=1
 
