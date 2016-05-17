@@ -1,0 +1,5 @@
+libopensplice64 (6.4.0-3~xenial) xenial; urgency=high
+ 
+  * Release 6.4.0-3
+ 
+ -- Brian Gerkey <gerkey@osrfoundation.org>  Sat, 16 Aug 2014 11:48:00 -0700
