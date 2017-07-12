@@ -1,6 +1,6 @@
-libopensplice67 (6.7.0-1~xenial) xenial; urgency=medium
+libopensplice67 (6.7.0+osrf1-1~xenial) xenial; urgency=medium
 
-  * libopensplice64 6.7.0-1 release
+  * libopensplice64 6.7.0+osrf1-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 12 Jul 2017 18:41:51 +0200
 
