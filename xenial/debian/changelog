@@ -1,3 +1,9 @@
+libopensplice67 (6.7.0+osrf2-2~xenial) xenial; urgency=medium
+
+  * libopensplice64 6.7.0+osrf2-2 release
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 28 Aug 2017 09:18:00 -0700
+
 libopensplice67 (6.7.0+osrf1-1~xenial) xenial; urgency=medium
 
   * libopensplice64 6.7.0+osrf1-1 release
