@@ -1,6 +1,6 @@
-Source: libopensplice64
+Source: libopensplice67
 Standards-Version: 3.9.4
-Maintainer: Brian Gerkey <gerkey@osrfoundation.org>
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: extra
 Build-Depends: cmake,
@@ -14,13 +14,14 @@ Vcs-Browser: https://github.com/osrf/opensplice
 Vcs-Git: git://github.com/osrf/opensplice.git
 Homepage: http://www.prismtech.com/opensplice
 
-Package: libopensplice64
+Package: libopensplice67
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Conflicts: libopensplice63
+Conflicts: libopensplice63, libopensplice64
+Replaces: libopensplice64
 Provides: 
 Description: This is the OpenSplice DDS Community Edition source repository. 
  For build & installation instructions please see 
