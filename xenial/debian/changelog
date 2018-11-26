@@ -1,6 +1,6 @@
-libopensplice67 (6.9.181126+osrf1-1~xenial) xenial; urgency=medium
+libopensplice69 (6.9.181126+osrf1-1~xenial) xenial; urgency=medium
 
-  * libopensplice67 6.9.181126+osrf1-1 release
+  * libopensplice69 6.9.181126+osrf1-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 26 Nov 2018 19:22:12 +0100
 
