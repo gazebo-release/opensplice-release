@@ -1,3 +1,9 @@
+libopensplice69 (6.9.181126+osrf1-4~xenial) xenial; urgency=medium
+
+  * libopensplice69 6.9.181126+osrf1-4 release
+
+ -- Steven! Ragnarok <steven@openrobotics.org>  Thu, 29 Nov 2018 14:15:00 -0800
+
 libopensplice69 (6.9.181126+osrf1-3~xenial) xenial; urgency=medium
 
   * libopensplice69 6.9.181126+osrf1-3 release
