@@ -1,3 +1,9 @@
+libopensplice69 (6.9.181126+osrf1-3~bionic) bionic; urgency=medium
+
+  * libopensplice69 6.9.181126+osrf1-3 release
+
+ -- Steven! Ragnarok <steven@osrfoundation.org>  Thu, 29 Nov 2018 16:27:35 -0500
+
 libopensplice69 (6.9.181126+osrf1-2~bionic) bionic; urgency=medium
 
   * libopensplice69 6.9.181126+osrf1-2 release
