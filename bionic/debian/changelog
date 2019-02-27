@@ -1,3 +1,9 @@
+libopensplice69 (6.9.190227+osrf1-1~bionic) bionic; urgency=medium
+
+  * libopensplice69 6.9.190227+osrf1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 27 Feb 2019 16:24:03 +0100
+
 libopensplice69 (6.9.190221-1~bionic) bionic; urgency=medium
 
   * libopensplice69 6.9.190221-1 release
