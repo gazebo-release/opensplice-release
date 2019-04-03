@@ -1,3 +1,9 @@
+libopensplice69 (6.9.190403+osrf1-1~trusty) trusty; urgency=medium
+
+  * libopensplice69 6.9.190403+osrf1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 04 Apr 2019 00:57:11 +0200
+
 libopensplice69 (6.9.190227+r2+osrf1-1~trusty) trusty; urgency=medium
 
   * libopensplice69 6.9.190227+r2+osrf1-1 release
