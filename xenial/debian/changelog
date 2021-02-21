@@ -1,3 +1,9 @@
+libopensplice67 (6.7.180404+osrf1-2~xenial) xenial; urgency=medium
+
+  * libopensplice67 6.7.180404+osrf1-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 12 Feb 2021 13:54:30 +0100
+
 libopensplice67 (6.7.180404+osrf1-1~xenial) xenial; urgency=medium
 
   * libopensplice67 6.7.180404+osrf1-1 release
